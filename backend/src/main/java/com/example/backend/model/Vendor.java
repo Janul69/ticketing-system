@@ -8,22 +8,55 @@ public class Vendor implements Runnable{
     private int releaseInterval;
     private int vendorCount;
 
-    public Vendor(int vendorCount) {
+    @Override
+    public void run() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    public int getVendorId() {
+        return this.vendorId;
+    }
+
+    public void setVendorId(int vendorId) {
+        this.vendorId = vendorId;
+    }
+
+    public String getVendorName() {
+        return this.vendorName;
+    }
+
+    public void setVendorName(String vendorName) {
+        this.vendorName = vendorName;
+    }
+
+    public int getTicketsPerRelease() {
+        return this.ticketsPerRelease;
+    }
+
+    public void setTicketsPerRelease(int ticketsPerRelease) {
+        this.ticketsPerRelease = ticketsPerRelease;
+    }
+
+    public int getReleaseInterval() {
+        return this.releaseInterval;
+    }
+
+    public void setReleaseInterval(int releaseInterval) {
+        this.releaseInterval = releaseInterval;
+    }
+
+    public int getVendorCount() {
+        return this.vendorCount;
+    }
+
+    public void setVendorCount(int vendorCount) {
         this.vendorCount = vendorCount;
     }
 
+   
 
-    @Override
-    public void run() {
-        for (int i = 0; i <= 5; i++) {
-            System.out.println(i + " for vendor: " + vendorCount);
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-
-    }
 
 }
+
+
