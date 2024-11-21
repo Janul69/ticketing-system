@@ -1,43 +1,43 @@
 package com.example.backend.model;
 
 public class Ticket {
-    private int ticketId;
-    private String eventName;
-    private double price;
-    private String status;
+    private final String ticketId;
+    private final double ticketPrice;
+    private final String vendorId;
+    private boolean isSold;
+
+    public Ticket(String ticketId, double ticketPrice, String vendorId) {
+        this.ticketId = ticketId;
+        this.ticketPrice = ticketPrice;
+        this.vendorId = vendorId;
+        this.isSold = false;
+    }
+
+    public String getVendorId() {
+        return this.vendorId;
+    }
 
 
-    public int getTicketId() {
+
+    public String getTicketId() {
         return this.ticketId;
     }
 
-    public void setTicketId(int ticketId) {
-        this.ticketId = ticketId;
+    public double getTicketPrice() {
+        return this.ticketPrice;
     }
 
-    public String getEventName() {
-        return this.eventName;
+
+    public boolean IsSold() {
+        return this.isSold;
     }
 
-    public void setEventName(String eventName) {
-        this.eventName = eventName;
+    public boolean getIsSold() {
+        return this.isSold;
     }
 
-    public double getPrice() {
-        return this.price;
+    public void setIsSold(boolean isSold) {
+        this.isSold = isSold;
     }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
-    public String getStatus() {
-        return this.status;
-    }
-
-    public void setStatus(String status) {
-        this.status = status;
-    }
-
-    
 }
+

@@ -1,0 +1,259 @@
+2024-11-21T10:23:04.161+05:30  INFO 21328 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 21328 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T10:23:04.175+05:30  INFO 21328 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T10:23:04.294+05:30  INFO 21328 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T10:23:04.295+05:30  INFO 21328 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T10:23:06.930+05:30  INFO 21328 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T10:23:06.956+05:30  INFO 21328 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T10:23:06.957+05:30  INFO 21328 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T10:23:07.077+05:30  INFO 21328 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T10:23:07.079+05:30  INFO 21328 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2781 ms
+2024-11-21T10:23:07.972+05:30  INFO 21328 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T10:23:08.044+05:30  INFO 21328 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T10:23:08.069+05:30  INFO 21328 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.703 seconds (process running for 5.504)
+2024-11-21T10:23:18.280+05:30  INFO 21328 --- [backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T10:23:18.281+05:30  INFO 21328 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T10:23:18.283+05:30  INFO 21328 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T10:30:49.482+05:30  INFO 11052 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 11052 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T10:30:49.492+05:30  INFO 11052 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T10:30:49.780+05:30  INFO 11052 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T10:30:49.785+05:30  INFO 11052 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T10:30:51.824+05:30  INFO 11052 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T10:30:51.852+05:30  INFO 11052 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T10:30:51.852+05:30  INFO 11052 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T10:30:51.945+05:30  INFO 11052 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T10:30:51.946+05:30  INFO 11052 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2155 ms
+2024-11-21T10:30:52.682+05:30  INFO 11052 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T10:30:52.752+05:30  INFO 11052 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T10:30:52.775+05:30  INFO 11052 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.037 seconds (process running for 4.841)
+2024-11-21T10:30:56.545+05:30  INFO 11052 --- [backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T10:30:56.546+05:30  INFO 11052 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T10:30:56.548+05:30  INFO 11052 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T10:31:15.873+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T1 with price: 500.0
+2024-11-21T10:31:15.873+05:30  INFO 11052 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T1 with price: 200.0
+2024-11-21T10:31:16.888+05:30  INFO 11052 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T2 with price: 200.0
+2024-11-21T10:31:16.888+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T2 with price: 500.0
+2024-11-21T10:31:17.900+05:30  INFO 11052 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T3 with price: 200.0
+2024-11-21T10:31:17.900+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T3 with price: 500.0
+2024-11-21T10:31:18.904+05:30  INFO 11052 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T4 with price: 200.0
+2024-11-21T10:31:18.904+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T4 with price: 500.0
+2024-11-21T10:31:19.919+05:30  INFO 11052 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T5 with price: 200.0
+2024-11-21T10:31:19.919+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T5 with price: 500.0
+2024-11-21T10:31:20.934+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T6 with price: 500.0
+2024-11-21T10:31:21.947+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T7 with price: 500.0
+2024-11-21T10:31:22.961+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T8 with price: 500.0
+2024-11-21T10:31:23.964+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T9 with price: 500.0
+2024-11-21T10:31:24.966+05:30  INFO 11052 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T10 with price: 500.0
+2024-11-21T10:31:25.984+05:30  INFO 11052 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe could not buy tickets from vendor V1
+2024-11-21T10:31:25.984+05:30  INFO 11052 --- [backend] [Thread-10] com.example.backend.model.Customer       : Jane Smith could not buy tickets from vendor V2
+2024-11-21T10:36:09.894+05:30  INFO 16804 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 16804 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T10:36:09.909+05:30  INFO 16804 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T10:36:10.034+05:30  INFO 16804 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T10:36:10.035+05:30  INFO 16804 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T10:36:12.551+05:30  INFO 16804 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T10:36:12.583+05:30  INFO 16804 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T10:36:12.584+05:30  INFO 16804 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T10:36:12.714+05:30  INFO 16804 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T10:36:12.716+05:30  INFO 16804 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2679 ms
+2024-11-21T10:36:13.378+05:30  INFO 16804 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T10:36:13.441+05:30  INFO 16804 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T10:36:13.458+05:30  INFO 16804 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.383 seconds (process running for 5.256)
+2024-11-21T10:37:51.705+05:30  INFO 16804 --- [backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T10:37:51.706+05:30  INFO 16804 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T10:37:51.708+05:30  INFO 16804 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T10:38:14.643+05:30  INFO 14288 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 14288 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T10:38:14.648+05:30  INFO 14288 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T10:38:14.763+05:30  INFO 14288 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T10:38:14.764+05:30  INFO 14288 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T10:38:17.180+05:30  INFO 14288 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T10:38:17.210+05:30  INFO 14288 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T10:38:17.211+05:30  INFO 14288 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T10:38:17.333+05:30  INFO 14288 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T10:38:17.334+05:30  INFO 14288 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2569 ms
+2024-11-21T10:38:18.061+05:30  INFO 14288 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T10:38:18.144+05:30  INFO 14288 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T10:38:18.169+05:30  INFO 14288 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.405 seconds (process running for 5.509)
+2024-11-21T10:38:20.790+05:30  INFO 14288 --- [backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T10:38:20.791+05:30  INFO 14288 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T10:38:20.793+05:30  INFO 14288 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T10:42:06.361+05:30  INFO 14288 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T1 with price: 200.0
+2024-11-21T10:42:06.361+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T1 with price: 500.0
+2024-11-21T10:42:07.373+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T2 with price: 500.0
+2024-11-21T10:42:07.373+05:30  INFO 14288 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T2 with price: 200.0
+2024-11-21T10:42:08.393+05:30  INFO 14288 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T3 with price: 200.0
+2024-11-21T10:42:08.393+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T3 with price: 500.0
+2024-11-21T10:42:09.409+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T4 with price: 500.0
+2024-11-21T10:42:09.409+05:30  INFO 14288 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T4 with price: 200.0
+2024-11-21T10:42:10.422+05:30  INFO 14288 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T5 with price: 200.0
+2024-11-21T10:42:10.425+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T5 with price: 500.0
+2024-11-21T10:42:11.437+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T6 with price: 500.0
+2024-11-21T10:42:12.443+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T7 with price: 500.0
+2024-11-21T10:42:13.457+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T8 with price: 500.0
+2024-11-21T10:42:14.470+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T9 with price: 500.0
+2024-11-21T10:42:15.482+05:30  INFO 14288 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T10 with price: 500.0
+2024-11-21T10:47:56.582+05:30  INFO 21256 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 21256 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T10:47:56.589+05:30  INFO 21256 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T10:47:56.702+05:30  INFO 21256 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T10:47:56.703+05:30  INFO 21256 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T10:47:58.863+05:30  INFO 21256 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T10:47:58.892+05:30  INFO 21256 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T10:47:58.893+05:30  INFO 21256 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T10:47:59.009+05:30  INFO 21256 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T10:47:59.010+05:30  INFO 21256 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2305 ms
+2024-11-21T10:47:59.731+05:30  INFO 21256 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T10:47:59.796+05:30  INFO 21256 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T10:47:59.814+05:30  INFO 21256 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.059 seconds (process running for 5.261)
+2024-11-21T10:48:06.285+05:30  INFO 21256 --- [backend] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T10:48:06.286+05:30  INFO 21256 --- [backend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T10:48:06.288+05:30  INFO 21256 --- [backend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T10:49:02.159+05:30  INFO 21256 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T1 with price: 200.0
+2024-11-21T10:49:02.159+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T1 with price: 500.0
+2024-11-21T10:49:03.171+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T2 with price: 500.0
+2024-11-21T10:49:03.171+05:30  INFO 21256 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T2 with price: 200.0
+2024-11-21T10:49:04.184+05:30  INFO 21256 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T3 with price: 200.0
+2024-11-21T10:49:04.184+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T3 with price: 500.0
+2024-11-21T10:49:05.194+05:30  INFO 21256 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T4 with price: 200.0
+2024-11-21T10:49:05.194+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T4 with price: 500.0
+2024-11-21T10:49:06.209+05:30  INFO 21256 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T5 with price: 200.0
+2024-11-21T10:49:06.209+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T5 with price: 500.0
+2024-11-21T10:49:07.219+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T6 with price: 500.0
+2024-11-21T10:49:08.230+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T7 with price: 500.0
+2024-11-21T10:49:09.245+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T8 with price: 500.0
+2024-11-21T10:49:10.260+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T9 with price: 500.0
+2024-11-21T10:49:11.263+05:30  INFO 21256 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T10 with price: 500.0
+2024-11-21T10:50:35.674+05:30  INFO 22296 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 22296 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T10:50:35.680+05:30  INFO 22296 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T10:50:35.789+05:30  INFO 22296 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T10:50:35.790+05:30  INFO 22296 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T10:50:37.822+05:30  INFO 22296 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T10:50:37.846+05:30  INFO 22296 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T10:50:37.847+05:30  INFO 22296 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T10:50:37.929+05:30  INFO 22296 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T10:50:37.930+05:30  INFO 22296 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2138 ms
+2024-11-21T10:50:38.776+05:30  INFO 22296 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T10:50:38.865+05:30  INFO 22296 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T10:50:38.891+05:30  INFO 22296 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.005 seconds (process running for 4.766)
+2024-11-21T10:50:39.227+05:30  INFO 22296 --- [backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T10:50:39.228+05:30  INFO 22296 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T10:50:39.231+05:30  INFO 22296 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T10:50:47.441+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T1 with price: 500.0
+2024-11-21T10:50:47.441+05:30  INFO 22296 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T1 with price: 200.0
+2024-11-21T10:50:48.446+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T2 with price: 500.0
+2024-11-21T10:50:48.446+05:30  INFO 22296 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T2 with price: 200.0
+2024-11-21T10:50:49.460+05:30  INFO 22296 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T3 with price: 200.0
+2024-11-21T10:50:49.460+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T3 with price: 500.0
+2024-11-21T10:50:50.473+05:30  INFO 22296 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T4 with price: 200.0
+2024-11-21T10:50:50.473+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T4 with price: 500.0
+2024-11-21T10:50:51.488+05:30  INFO 22296 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T5 with price: 200.0
+2024-11-21T10:50:51.488+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T5 with price: 500.0
+2024-11-21T10:50:52.492+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T6 with price: 500.0
+2024-11-21T10:50:53.508+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T7 with price: 500.0
+2024-11-21T10:50:54.522+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T8 with price: 500.0
+2024-11-21T10:50:55.535+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T9 with price: 500.0
+2024-11-21T10:50:56.538+05:30  INFO 22296 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T10 with price: 500.0
+2024-11-21T10:50:57.544+05:30  INFO 22296 --- [backend] [Thread-10] com.example.backend.model.Customer       : Jane Smith purchased ticket VV2-T1 from vendor V2
+2024-11-21T10:50:57.544+05:30  INFO 22296 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T1 from vendor V1
+2024-11-21T10:50:57.545+05:30  INFO 22296 --- [backend] [Thread-10] com.example.backend.model.Customer       : Jane Smith purchased ticket VV2-T2 from vendor V2
+2024-11-21T10:50:57.545+05:30  INFO 22296 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T2 from vendor V1
+2024-11-21T10:50:57.546+05:30  INFO 22296 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T3 from vendor V1
+2024-11-21T10:50:57.546+05:30  INFO 22296 --- [backend] [Thread-10] com.example.backend.model.Customer       : Jane Smith purchased ticket VV2-T3 from vendor V2
+2024-11-21T10:50:57.547+05:30  INFO 22296 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T4 from vendor V1
+2024-11-21T10:50:57.547+05:30  INFO 22296 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T5 from vendor V1
+2024-11-21T10:53:06.966+05:30  INFO 5440 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 5440 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T10:53:06.970+05:30  INFO 5440 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T10:53:07.079+05:30  INFO 5440 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T10:53:07.080+05:30  INFO 5440 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T10:53:09.280+05:30  INFO 5440 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T10:53:09.310+05:30  INFO 5440 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T10:53:09.312+05:30  INFO 5440 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T10:53:09.411+05:30  INFO 5440 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T10:53:09.412+05:30  INFO 5440 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2331 ms
+2024-11-21T10:53:10.062+05:30  INFO 5440 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T10:53:10.113+05:30  INFO 5440 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T10:53:10.134+05:30  INFO 5440 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.021 seconds (process running for 4.763)
+2024-11-21T10:53:11.016+05:30  INFO 5440 --- [backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T10:53:11.018+05:30  INFO 5440 --- [backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T10:53:11.019+05:30  INFO 5440 --- [backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T10:53:31.294+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T1 with price: 500.0
+2024-11-21T10:53:31.294+05:30  INFO 5440 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T1 with price: 200.0
+2024-11-21T10:53:32.297+05:30  INFO 5440 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T2 with price: 200.0
+2024-11-21T10:53:32.297+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T2 with price: 500.0
+2024-11-21T10:53:33.310+05:30  INFO 5440 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T3 with price: 200.0
+2024-11-21T10:53:33.310+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T3 with price: 500.0
+2024-11-21T10:53:34.326+05:30  INFO 5440 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T4 with price: 200.0
+2024-11-21T10:53:34.326+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T4 with price: 500.0
+2024-11-21T10:53:35.329+05:30  INFO 5440 --- [backend] [Thread-8] com.example.backend.model.Vendor         : Vendor: V2 added ticket: VV2-T5 with price: 200.0
+2024-11-21T10:53:35.329+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T5 with price: 500.0
+2024-11-21T10:53:36.345+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T6 with price: 500.0
+2024-11-21T10:53:37.359+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T7 with price: 500.0
+2024-11-21T10:53:38.374+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T8 with price: 500.0
+2024-11-21T10:53:39.387+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T9 with price: 500.0
+2024-11-21T10:53:40.389+05:30  INFO 5440 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T10 with price: 500.0
+2024-11-21T10:53:41.408+05:30  INFO 5440 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T1 from vendor V1
+2024-11-21T10:53:41.408+05:30  INFO 5440 --- [backend] [Thread-10] com.example.backend.model.Customer       : Jane Smith purchased ticket VV2-T1 from vendor V2
+2024-11-21T10:53:41.410+05:30  INFO 5440 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T2 from vendor V1
+2024-11-21T10:53:41.410+05:30  INFO 5440 --- [backend] [Thread-10] com.example.backend.model.Customer       : Jane Smith purchased ticket VV2-T2 from vendor V2
+2024-11-21T10:53:41.412+05:30  INFO 5440 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T3 from vendor V1
+2024-11-21T10:53:41.413+05:30  INFO 5440 --- [backend] [Thread-10] com.example.backend.model.Customer       : Jane Smith purchased ticket VV2-T3 from vendor V2
+2024-11-21T10:53:41.414+05:30  INFO 5440 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T4 from vendor V1
+2024-11-21T10:53:41.416+05:30  INFO 5440 --- [backend] [Thread-9] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T5 from vendor V1
+2024-11-21T11:05:54.339+05:30  INFO 23200 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 23200 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T11:05:54.344+05:30  INFO 23200 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T11:05:54.445+05:30  INFO 23200 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T11:05:54.446+05:30  INFO 23200 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T11:05:56.499+05:30  INFO 23200 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T11:05:56.529+05:30  INFO 23200 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T11:05:56.531+05:30  INFO 23200 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T11:05:56.662+05:30  INFO 23200 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T11:05:56.664+05:30  INFO 23200 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2217 ms
+2024-11-21T11:05:57.541+05:30  INFO 23200 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T11:05:57.602+05:30  INFO 23200 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T11:05:57.625+05:30  INFO 23200 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 4.065 seconds (process running for 4.818)
+2024-11-21T11:06:00.220+05:30  INFO 23200 --- [backend] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T11:06:00.222+05:30  INFO 23200 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T11:06:00.224+05:30  INFO 23200 --- [backend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-11-21T11:06:36.959+05:30  WARN 23200 --- [backend] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (']' (code 93)): expected a value]
+2024-11-21T11:06:55.383+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T1 with price: 500.0
+2024-11-21T11:06:56.390+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T2 with price: 500.0
+2024-11-21T11:06:57.403+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T3 with price: 500.0
+2024-11-21T11:06:58.405+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T4 with price: 500.0
+2024-11-21T11:06:59.419+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T5 with price: 500.0
+2024-11-21T11:07:00.433+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T6 with price: 500.0
+2024-11-21T11:07:01.437+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T7 with price: 500.0
+2024-11-21T11:07:02.451+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T8 with price: 500.0
+2024-11-21T11:07:03.463+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T9 with price: 500.0
+2024-11-21T11:07:04.478+05:30  INFO 23200 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T10 with price: 500.0
+2024-11-21T11:07:05.499+05:30  INFO 23200 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T1 from vendor V1
+2024-11-21T11:07:05.500+05:30  INFO 23200 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T2 from vendor V1
+2024-11-21T11:07:05.501+05:30  INFO 23200 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T3 from vendor V1
+2024-11-21T11:07:05.503+05:30  INFO 23200 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T4 from vendor V1
+2024-11-21T11:07:05.504+05:30  INFO 23200 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T5 from vendor V1
+2024-11-21T11:07:48.304+05:30  INFO 17724 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Starting BackendApplication using Java 17.0.10 with PID 17724 (D:\oop_cw\backend\target\classes started by Janul in D:\oop_cw)
+2024-11-21T11:07:48.309+05:30  INFO 17724 --- [backend] [restartedMain] com.example.backend.BackendApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-21T11:07:48.398+05:30  INFO 17724 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-21T11:07:48.399+05:30  INFO 17724 --- [backend] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-21T11:07:50.308+05:30  INFO 17724 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-21T11:07:50.339+05:30  INFO 17724 --- [backend] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-21T11:07:50.340+05:30  INFO 17724 --- [backend] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-21T11:07:50.445+05:30  INFO 17724 --- [backend] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-21T11:07:50.446+05:30  INFO 17724 --- [backend] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2046 ms
+2024-11-21T11:07:51.121+05:30  INFO 17724 --- [backend] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-11-21T11:07:51.181+05:30  INFO 17724 --- [backend] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-11-21T11:07:51.204+05:30  INFO 17724 --- [backend] [restartedMain] com.example.backend.BackendApplication   : Started BackendApplication in 3.65 seconds (process running for 4.358)
+2024-11-21T11:08:00.071+05:30  INFO 17724 --- [backend] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-21T11:08:00.072+05:30  INFO 17724 --- [backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-21T11:08:00.074+05:30  INFO 17724 --- [backend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-21T11:09:01.477+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T1 with price: 500.0
+2024-11-21T11:09:02.489+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T2 with price: 500.0
+2024-11-21T11:09:03.493+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T3 with price: 500.0
+2024-11-21T11:09:04.506+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T4 with price: 500.0
+2024-11-21T11:09:05.517+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T5 with price: 500.0
+2024-11-21T11:09:06.520+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T6 with price: 500.0
+2024-11-21T11:09:07.525+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T7 with price: 500.0
+2024-11-21T11:09:08.526+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T8 with price: 500.0
+2024-11-21T11:09:09.540+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T9 with price: 500.0
+2024-11-21T11:09:10.552+05:30  INFO 17724 --- [backend] [Thread-7] com.example.backend.model.Vendor         : Vendor: V1 added ticket: VV1-T10 with price: 500.0
+2024-11-21T11:09:11.571+05:30  INFO 17724 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T1 from vendor V1
+2024-11-21T11:09:11.572+05:30  INFO 17724 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T2 from vendor V1
+2024-11-21T11:09:11.573+05:30  INFO 17724 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T3 from vendor V1
+2024-11-21T11:09:11.573+05:30  INFO 17724 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T4 from vendor V1
+2024-11-21T11:09:11.574+05:30  INFO 17724 --- [backend] [Thread-8] com.example.backend.model.Customer       : John Doe purchased ticket VV1-T5 from vendor V1
