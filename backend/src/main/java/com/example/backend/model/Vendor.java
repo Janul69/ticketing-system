@@ -1,5 +1,7 @@
 package com.example.backend.model;
 
+import java.util.concurrent.Semaphore;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,26 +41,30 @@ public class Vendor implements Runnable{
     @Override
     public void run() {
         for (int i=1; i <= ticketsToRelease; i++) {
-            String ticketId = "V" + vendorId + "-T" + i;
-            Ticket ticket = new Ticket(ticketId, ticketPrice, vendorId);
-            boolean isAdded = ticketPool.addTickets(ticket);
-            
-            
-            if (isAdded) {
-                logger.info("Vendor: {} added ticket: {} with price: {}", vendorId, ticketId, ticketPrice);
-            } else {
-                logger.warn("Vendor: {} tried to add ticket: {} but the capacity is full.", vendorId, ticketId);
-            }
-            //String logMessage = "Vendor: " + vendorId + " added ticket: " + ticketId;
-            //System.out.println(logMessage);
-            
-            //FileLogger.log(logMessage);
 
             try {
+
+                String ticketId = vendorId + "-T" + i;
+                Ticket ticket = new Ticket(ticketId, ticketPrice, vendorId);
+                boolean isAdded = ticketPool.addTicket(ticket);
+                
+                
+                if (isAdded) {
+                    logger.info("Vendor: {} added ticket: {} with price: {}", vendorId, ticketId, ticketPrice);
+                } else {
+                    logger.warn("Vendor: {} tried to add ticket: {} but the capacity is full.", vendorId, ticketId);
+                }
+                //String logMessage = "Vendor: " + vendorId + " added ticket: " + ticketId;
+                //System.out.println(logMessage);
+                
+                //FileLogger.log(logMessage);
                 Thread.sleep(ticketReleaseRate);
+    
+                    
             } catch (InterruptedException e) {
-                logger.error("unexpected error in vendor thread {}: {}", vendorId, e.getMessage(), e);
-                //FileLogger.log("unexpected error in vendor thread: " + vendorId + e.getMessage());
+                    logger.error("unexpected error in vendor thread {}: {}", vendorId, e.getMessage(), e);
+                    //FileLogger.log("unexpected error in vendor thread: " + vendorId + e.getMessage());
+           
             }
         }
 
@@ -95,7 +101,22 @@ public class Vendor implements Runnable{
         return this.ticketPool;
     }
 
+    public double getTicketPrice() {
+        return this.ticketPrice;
+    }
 
+
+
+
+    @Override
+    public String toString() {
+        return "{" +
+            " vendorId='" + getVendorId() + "'" +
+            ", eventName='" + getEventName() + "'" +
+            ", ticketsToRelease='" + getTicketsToRelease() + "'" +
+            ", ticketReleaseRate='" + getTicketReleaseRate() + "'" +
+            ", ticketPrice='" + getTicketPrice() + " }";
+    }
 
 }
 

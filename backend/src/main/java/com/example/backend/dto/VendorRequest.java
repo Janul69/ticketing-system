@@ -49,4 +49,15 @@ public class VendorRequest {
     }
 
 
+    @Override
+    public String toString() {
+        return "{" +
+            " vendorId='" + getVendorId() + "'" +
+            ", eventName='" + getEventName() + "'" +
+            ", ticketsToRelease='" + getTicketsToRelease() + "'" +
+            ", ticketReleaseRate='" + getTicketReleaseRate() + "'" +
+            ", ticketPrice='" + getTicketPrice() + "'" +
+            "}";
+    }
+
 }

@@ -43,4 +43,17 @@ public class CustomerRequest {
         this.customerRetrievalRate = customerRetrievalRate;
     }
 
+
+
+    @Override
+    public String toString() {
+        return "{" +
+            " customerId='" + getCustomerId() + "'" +
+            ", customerName='" + getCustomerName() + "'" +
+            ", vendorId='" + getVendorId() + "'" +
+            ", ticketsToBuy='" + getTicketsToBuy() + "'" +
+            ", customerRetrievalRate='" + getCustomerRetrievalRate() + "'" +
+            "}";
+    }
+
 }

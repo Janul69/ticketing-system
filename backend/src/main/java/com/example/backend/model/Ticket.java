@@ -18,7 +18,6 @@ public class Ticket {
     }
 
 
-
     public String getTicketId() {
         return this.ticketId;
     }

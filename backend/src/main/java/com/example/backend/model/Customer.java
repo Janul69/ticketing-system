@@ -48,21 +48,13 @@ public class Customer implements Runnable{
             for (Ticket ticket : purchasedTickets) {
                 ticket.setIsSold(true);
                 logger.info("{} purchased ticket {} from vendor {}", customerName, ticket.getTicketId(), vendorId);
+                try {
+                    Thread.sleep(customerRetrievalRate);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
         }
-        // while (true) {
-        //     Ticket ticket = ticketPool.removeTicket();
-        //     if (ticket == null) {
-        //         System.out.println(customerName + ": no tickets left to purchase");
-        //         break;
-        //     } else {
-        //         ticket.setIsSold(true);
-        //         logger.info("{} has purchased ticket: {}", customerName, ticket.getTicketId());
-        //         //System.out.println(customerName + " purchased " + ticket.getTicketId());
-
-        //     }
-            
-        // }
         
     }
 
