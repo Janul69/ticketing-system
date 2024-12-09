@@ -3,12 +3,12 @@ package com.example.backend.dto;
 public class CustomerRequest {
     private String customerId;
     private String customerName;
-    private String vendorId;
+    private Long vendorId;
     private int ticketsToBuy;
     private int customerRetrievalRate;
 
 
-    public String getVendorId() {
+    public Long getVendorId() {
         return this.vendorId;
     }
 

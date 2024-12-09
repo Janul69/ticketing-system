@@ -1,0 +1,36 @@
+.sidebar {
+  position: fixed;
+  top: 80px; /* Match header height */
+  left: 0;
+  width: 250px;
+  height: calc(100% - 80px); /* Ensure sidebar height adjusts to header */
+  background-color: #1e1e2d;
+  color: white;
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 30px; /* Padding inside the ul */
+  margin-bottom: 20px; /* Space between ul elements */
+}
+
+.sidebar ul:last-child {
+  margin-bottom: 0; /* Optional: Remove margin for the last ul */
+}
+
+.sidebar ul li {
+  margin: 20px 0; /* Space between individual list items */
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}

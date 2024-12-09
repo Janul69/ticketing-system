@@ -1,11 +1,13 @@
 package com.example.backend.dto;
 
 public class VendorRequest {
-    private String vendorId;
+    private Long vendorId;
     private String eventName;
     private int ticketsToRelease;
     private int ticketReleaseRate;
     private double ticketPrice;
+
+ 
 
 
     public int getTicketReleaseRate() {
@@ -16,7 +18,7 @@ public class VendorRequest {
         this.ticketReleaseRate = ticketReleaseRate;
     }
 
-    public String getVendorId() {
+    public Long getVendorId() {
         return this.vendorId;
     }
 
@@ -28,7 +30,7 @@ public class VendorRequest {
         this.ticketPrice = ticketPrice;
     }
 
-    public void setVendorId(String vendorId) {
+    public void setVendorId(Long vendorId) {
         this.vendorId = vendorId;
     }
 

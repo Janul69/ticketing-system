@@ -1,0 +1,18 @@
+nav.navbar {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Optional, but ensures no extra padding */
+}
+
+.container-fluid {
+  height: 80px; /* Explicit height to match sidebar */
+  padding: 0; /* Reset default padding */
+}
+
+.navbar-brand {
+  padding: 20px;
+  margin: 0; /* Ensures no extra space around the brand */
+}
+
+.navbar {
+  margin-bottom: 0 !important;
+}

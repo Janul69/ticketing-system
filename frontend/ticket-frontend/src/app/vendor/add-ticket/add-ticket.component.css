@@ -1,0 +1,12 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(10%); /* Moves it slightly to the right from the center */
+  }
+  .card {
+    border-radius: 8px;
+    border: none;
+  }
+  .form-label {
+    font-weight: 500;
+  }

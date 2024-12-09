@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class Customer implements Runnable{
     private final String customerId;
     private final String customerName;
-    private final String vendorId;
+    private final Long vendorId;
     private final int ticketsToBuy;
     private final int customerRetrievalRate;
 
@@ -30,7 +30,7 @@ public class Customer implements Runnable{
         this.ticketPool = ticketPool;
     }
 
-    public Customer(String customerId, String customerName, int customerRetrievalRate, String vendorId, int ticketsToBuy) {
+    public Customer(String customerId, String customerName, int customerRetrievalRate, Long vendorId, int ticketsToBuy) {
         this.customerId = customerId;
         this.customerName = customerName;
         this.customerRetrievalRate = customerRetrievalRate;
@@ -83,7 +83,7 @@ public class Customer implements Runnable{
     }
 
 
-    public String getVendorId() {
+    public Long getVendorId() {
         return this.vendorId;
     }
 

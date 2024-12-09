@@ -26,6 +26,7 @@ public class VendorController {
         this.vendorService = vendorService;
     }
 
+
     @PostMapping("/add")
     public ResponseEntity<String> addTickets(@RequestBody VendorRequest vendorRequest) {
         try {

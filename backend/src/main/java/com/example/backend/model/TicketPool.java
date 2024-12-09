@@ -35,7 +35,7 @@ public class TicketPool {
         }
     }
     
-    public List<Ticket> removeTicket(String vendorId, int quantity) {
+    public List<Ticket> removeTicket(Long vendorId, int quantity) {
         List<Ticket> retrievedTickets = new ArrayList<>();
         lock.lock();
         try {
