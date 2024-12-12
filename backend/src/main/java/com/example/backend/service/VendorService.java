@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.example.backend.dto.VendorRequest;
 import com.example.backend.model.Configuration;
-import com.example.backend.model.Ticket;
 import com.example.backend.model.TicketPool;
 import com.example.backend.model.Vendor;
 import com.example.backend.repository.TicketRepository;

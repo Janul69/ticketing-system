@@ -1,0 +1,20 @@
+<div class="text-center my-3">
+    <!-- Start Simulation Button -->
+    <button class="btn btn-success me-2" (click)="startSimulation()">
+      <i class="bi bi-play-circle"></i> Start Simulation
+    </button>
+  
+    <!-- Stop Simulation Button -->
+    <button class="btn btn-danger" (click)="stopSimulation()">
+      <i class="bi bi-stop-circle"></i> Stop Simulation
+    </button>
+</div>
+
+  
+
+ <p *ngIf="simulationStatus" class="alert alert-info text-center mt-3">
+    {{ simulationStatus }}
+</p>
+  
+
+<app-logs></app-logs>

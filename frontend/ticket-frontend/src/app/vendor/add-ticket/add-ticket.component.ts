@@ -28,18 +28,24 @@ export class AddTicketComponent implements OnInit{
   onSubmit() {
     if (this.addTicketForm.valid) {
       const ticketData = this.addTicketForm.value;
-      this.vendorService.addTickets(ticketData).subscribe({
+  
+     
+      const vendorId = 1; 
+  
+
+      const ticketDataWithVendorId = { ...ticketData, vendorId };
+  
+      this.vendorService.addTickets(ticketDataWithVendorId).subscribe({
         next: (response) => {
-          console.log("Tickets added successfully", response);
-          // Since the backend is returning a string, you can handle it directly
-          if (response === "Ticket added successfully") {
-            console.log("Ticket successfully added to the backend");
+          console.log('Tickets added successfully', response);
+          if (response === 'Ticket added successfully') {
+            console.log('Ticket successfully added to the backend');
           } else {
-            console.error("Unexpected response:", response);
+            console.error('Unexpected response:', response);
           }
         },
         error: (e) => {
-          console.log("Error adding tickets", e);
+          console.log('Error adding tickets', e);
           if (e.status === 0) {
             console.error('Network error or CORS issue');
           } else {
@@ -48,10 +54,10 @@ export class AddTicketComponent implements OnInit{
         },
         complete: () => {
           console.info('Request completed');
-        }
+        },
       });
     } else {
-      console.log("Form is not valid");
+      console.log('Form is not valid');
     }
   }
 }  

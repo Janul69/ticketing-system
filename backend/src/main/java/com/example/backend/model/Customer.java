@@ -7,6 +7,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.example.backend.repository.TicketRepository;
+
 public class Customer implements Runnable{
     private final String customerId;
     private final String customerName;
@@ -16,9 +18,14 @@ public class Customer implements Runnable{
 
     private Configuration config;
     private TicketPool ticketPool;
+    private TicketRepository ticketRepository;
 
     private static final Logger logger = LogManager.getLogger(Customer.class);
 
+    @Autowired
+    public void setTicketRepository(TicketRepository ticketRepository) {
+        this.ticketRepository = ticketRepository;
+    }
 
     @Autowired
     public void setConfig(Configuration config) {
@@ -40,6 +47,7 @@ public class Customer implements Runnable{
 
     @Override
     public void run() {
+        //retireve removed tickets from ticketpool to a new list
         List<Ticket> purchasedTickets = ticketPool.removeTicket(vendorId, ticketsToBuy);
 
         if (purchasedTickets.isEmpty()) {

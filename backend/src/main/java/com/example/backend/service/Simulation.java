@@ -8,37 +8,43 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Component;
 
+import com.example.backend.controller.WebSocketController;
 import com.example.backend.dto.CustomerRequest;
 import com.example.backend.dto.VendorRequest;
 import com.example.backend.model.Configuration;
 import com.example.backend.model.Customer;
 import com.example.backend.model.TicketPool;
 import com.example.backend.model.Vendor;
+import com.example.backend.repository.TicketRepository;
 
 @Component
 public class Simulation {
     private final ConfigurationService configurationService;
     private final TicketPool ticketPool;
+    private final TicketRepository ticketRepository;
+    private final WebSocketController webSocketController;
     private static final Logger logger = LogManager.getLogger(Simulation.class);
 
     private final List<Vendor> vendors = Collections.synchronizedList(new ArrayList<>());
     private final List<Customer> customers = Collections.synchronizedList(new ArrayList<>());
 
-	private boolean vendorsCreated = false;
+	//private boolean vendorsCreated = false;
 	private boolean customersCreated = false;
 	private boolean simulationStarted = false;
 
-    public Simulation(ConfigurationService configurationService, TicketPool ticketPool) {
+    public Simulation(ConfigurationService configurationService, TicketPool ticketPool, TicketRepository ticketRepository, WebSocketController webSocketController) {
         this.configurationService = configurationService;
         this.ticketPool = ticketPool;
+        this.ticketRepository = ticketRepository;
+        this.webSocketController = webSocketController;
     }
 
     public void createVendors(List<VendorRequest> vendorRequests) {
 
-		if (vendorsCreated) {
-            logger.warn("Vendors have already been created. No new vendors will be added.");
-            return; 
-        }
+		// if (vendorsCreated) {
+        //     logger.warn("Vendors have already been created. No new vendors will be added.");
+        //     return; 
+        // }
 
         vendors.clear();  // Clear existing vendors for a fresh start
         Configuration config = configurationService.getConfiguration();
@@ -52,19 +58,21 @@ public class Simulation {
                 vendorRequest.getTicketPrice()
             );
             vendor.setTicketPool(ticketPool);
+            vendor.setWebSocketController(webSocketController);
+            vendor.setTicketRepository(ticketRepository);
             vendors.add(vendor);
         }
 
-		vendorsCreated = true;
+		//vendorsCreated = true;
         logger.info("Vendors created: " + vendors.size());
     }
 
     public void createCustomers(List<CustomerRequest> customerRequests) {
 
-		if (customersCreated) {
-            logger.warn("Customers have already been created. No new customers will be added.");
-            return;  
-        }
+		// if (customersCreated) {
+        //     logger.warn("Customers have already been created. No new customers will be added.");
+        //     return;  
+        // }
 
         customers.clear();  // Clear existing customers to prevent duplicates
         Configuration config = configurationService.getConfiguration();
@@ -80,7 +88,7 @@ public class Simulation {
             customer.setTicketPool(ticketPool);
             customers.add(customer);
         }
-		customersCreated = true;
+		//customersCreated = true;
         logger.info("Customers created: " + customers.size());
     }
 
@@ -131,8 +139,8 @@ public class Simulation {
 	public void stopSimulation() {
 		vendors.clear();
 		customers.clear();
-		vendorsCreated = false;
-		customersCreated = false;	
+		//vendorsCreated = false;
+		//customersCreated = false;	
 		simulationStarted = false;
 		logger.info("Simulation stopped.");
 	}

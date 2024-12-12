@@ -1,0 +1,37 @@
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="p-4" style="width: 1500px; height: 400px; border: 1px solid #ccc; border-radius: 8px; background-color: #fff;">
+      <h4 class="mb-4" style="font-weight: bold;">Create Customers</h4>
+  
+      <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="eventName" class="form-label">Customer Id<span class="text-danger">*</span></label>
+            <input type="number" class="form-control" id="eventName" formControlName="customerId" placeholder="Enter customer Id" required>
+          </div>
+          <div class="col-md-6">
+            <label for="ticketPrice" class="form-label">Customer name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="ticketPrice" formControlName="customerName" placeholder="Enter customer name" required>
+          </div>
+        </div>
+  
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="ticketsToRelease" class="form-label">Vendor Id<span class="text-danger">*</span></label>
+            <input type="number" class="form-control" id="ticketsToRelease" formControlName="vendorId" placeholder="Enter vendor Id" required>
+          </div>  
+          <div class="col-md-6">
+            <label for="ticketPrice" class="form-label">Tickets to buy<span class="text-danger">*</span></label>
+            <input type="number" class="form-control" id="ticketPrice" formControlName="ticketsToBuy" placeholder="Number of tickets" required>
+          </div>
+        </div>
+  
+        <div class="d-flex justify-content-start">
+          <button type="submit" class="btn btn-primary" [disabled]="customerForm.invalid">Add</button>
+        </div>
+        <div *ngIf="showSuccessMessage" class="alert alert-success" role="alert">
+          Customer created!
+        </div>
+      </form>
+    </div>
+  </div>
+  

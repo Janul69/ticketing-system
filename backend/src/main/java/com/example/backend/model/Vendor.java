@@ -5,7 +5,9 @@ import java.util.concurrent.Semaphore;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import com.example.backend.controller.WebSocketController;
 import com.example.backend.repository.TicketRepository;
 
 public class Vendor implements Runnable{
@@ -22,6 +24,7 @@ public class Vendor implements Runnable{
 
     private TicketPool ticketPool;
     private TicketRepository ticketRepository;
+    private WebSocketController webSocketController;
 
     @Autowired
     public void setTicketRepository(TicketRepository ticketRepository) {
@@ -31,6 +34,11 @@ public class Vendor implements Runnable{
     @Autowired
     public void setTicketPool(TicketPool ticketPool) {
         this.ticketPool = ticketPool;
+    }
+
+    @Autowired
+    public void setWebSocketController(WebSocketController webSocketController) {
+        this.webSocketController = webSocketController;
     }
 
     @Autowired
@@ -58,8 +66,10 @@ public class Vendor implements Runnable{
                 
                 
                 if (isAdded) {
-                    ticketRepository.save(ticket);
+                    //ticketRepository.save(ticket);
                     logger.info("Vendor: {} added ticket: {} with price: {}", vendorId, ticketId, ticketPrice);
+                    webSocketController.sendLogs("Vendor: " + vendorId + " added ticket: " + ticketId);
+
                 } else {
                     logger.warn("Vendor: {} tried to add ticket: {} but the capacity is full.", vendorId, ticketId);
                 }

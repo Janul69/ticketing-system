@@ -1,1 +1,23 @@
-<p>buy-ticket works!</p>
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="p-4" style="width: 1500px; height: 400px; border: 1px solid #ccc; border-radius: 8px; background-color: #fff;">
+      <h4 class="mb-4" style="font-weight: bold;">Buy Tickets</h4>
+  
+      <form [formGroup]="buyTicketForm" (ngSubmit)="onSubmit()">
+        <div class="row mb-3">
+          <div class="col-md-6">
+            <label for="Name" class="form-label">Name<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="Name" formControlName="customerName" placeholder="Enter name" required>
+          </div>
+          <div class="col-md-6">
+            <label for="tickettot" class="form-label">Number of Tickets <span class="text-danger">*</span></label>
+            <input type="number" class="form-control" id="tickettot" formControlName="ticketsToBuy" placeholder="Enter ticket price" required>
+          </div>
+        </div>
+  
+        <div class="d-flex justify-content-start">
+          <button type="submit" class="btn btn-primary" [disabled]="buyTicketForm.invalid">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  
